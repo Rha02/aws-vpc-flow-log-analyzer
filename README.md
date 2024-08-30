@@ -16,6 +16,8 @@ Example for running the app with the files already in `/data ` directory:
 py main.py flow_logs.txt tag_table.csv
 ```
 
+The output will be written to an `output.txt` file in the root directory.
+
 ## Assumptions made
 1. The AWS VPC flow log records are of a valid (default) format and are of version 2.
 
